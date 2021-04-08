@@ -346,6 +346,10 @@ div.footer h6 {
     padding-top: 6rem;
 }
 
+.burger {
+    display: none;
+}
+
 @media (max-width: 860px) {
     div.hero-section {
         padding: 10px;
@@ -365,7 +369,7 @@ div.footer h6 {
     }
 
     div.hero-background{
-        padding: 10px;
+        padding: 20px;
     }
 
     .burger {
@@ -383,6 +387,7 @@ div.footer h6 {
         justify-content: space-around;
         padding: 0;
         transition: all 400ms;
+        z-index: 99;
     }
     .navlink {
         text-align: center;
@@ -395,5 +400,37 @@ div.footer h6 {
     i{
         margin-right: -80px;
         float: right;
+    }
+
+   
+    div.snapshot-box-content{
+        flex-direction: column;
+    }
+
+    div.gallery-content p {
+       width: 100%;
+    }
+
+    div.hero-background-pos {
+        right: 0;
+        left: 30%;
+        bottom: 330px;
+
+    }
+
+    div.background {
+        height: 300px;
+        margin-top: 60px;
+    }
+
+    div.background h4 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    div.background p {
+        padding-left: 0;
+        width: 300px;
+        text-align: center;
     }
 }
