@@ -5,6 +5,7 @@ const nav = document.querySelector('.nav-links');
 // Defining a function
 function toggleNav() {
     nav.style.visibility.display = "block";
+    nav.style.visibility.visibility = "visible";
     burger.classList.toggle('fa-bars');
     burger.classList.toggle('fa-times');
     nav.classList.toggle('nav-active');

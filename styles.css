@@ -389,6 +389,7 @@ div.burger {
         transition: all 400ms;
         z-index: 99;
         display: none;
+        visibility: hidden;
     }
     .navlink {
         text-align: center;
