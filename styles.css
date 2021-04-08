@@ -346,7 +346,7 @@ div.footer h6 {
     padding-top: 6rem;
 }
 
-.burger {
+div.burger {
     display: none;
 }
 
@@ -372,7 +372,7 @@ div.footer h6 {
         padding: 20px;
     }
 
-    .burger {
+    div.burger {
         display: block;
     }
     .nav-links {
