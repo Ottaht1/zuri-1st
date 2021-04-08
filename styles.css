@@ -388,6 +388,7 @@ div.footer h6 {
         padding: 0;
         transition: all 400ms;
         z-index: 99;
+        display: none;
     }
     .navlink {
         text-align: center;
@@ -414,7 +415,7 @@ div.footer h6 {
     div.hero-background-pos {
         right: 0;
         left: 30%;
-        bottom: 330px;
+        bottom: 40%;
 
     }
 
