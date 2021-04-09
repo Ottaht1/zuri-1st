@@ -417,6 +417,10 @@ div.burger {
        width: 100%;
     }
 
+    body {
+        width: 100%;
+    }
+
     div.hero-background-pos {
         /* position: relative; */
         top: 350px;
