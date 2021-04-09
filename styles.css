@@ -418,9 +418,9 @@ div.burger {
     }
 
     div.hero-background-pos {
-        right: 0;
-        left: 100px;
-        margin-bottom: 530px;
+        /* position: relative; */
+        top: 350px;
+        left: 130px;
     }
 
     div.background {
