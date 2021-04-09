@@ -374,6 +374,7 @@ div.burger {
 
     div.burger {
         display: block;
+        font-size: x-large;
     }
     .nav-links {
         margin: 0;
@@ -419,7 +420,7 @@ div.burger {
     div.hero-background-pos {
         right: 0;
         left: 100px;
-        margin-bottom: 230px;
+        margin-bottom: 330px;
     }
 
     div.background {
