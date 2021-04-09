@@ -388,15 +388,18 @@ div.burger {
         padding: 0;
         transition: all 400ms;
         z-index: 99;
-        display: none;
-        visibility: hidden;
     }
     .navlink {
         text-align: center;
     }
 
+    .show-up{
+        display: none;
+        visibility: hidden;
+    }
+
     .nav-active {
-        right: 0;
+        right: 0;    
     }
 
     i{
@@ -415,9 +418,8 @@ div.burger {
 
     div.hero-background-pos {
         right: 0;
-        left: 30%;
-        bottom: 40%;
-
+        left: 100px;
+        margin-bottom: 230px;
     }
 
     div.background {
